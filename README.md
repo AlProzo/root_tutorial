@@ -1,8 +1,5 @@
 # The exercises for the ROOT intro
 
-# C++ Interpreter Learning Module Exercises
-Welcome to the exercises of the **C++ Interpreter** learning module!
-
 ## Compile and run a simple program
 The file *simpleProgram.cpp* contains a trivial program that is waiting for you
 to be compiled and run. Using the GCC compiler, you can compile and run it
@@ -36,9 +33,6 @@ to link its libraries to the executable.
 ### Follow up question
 Can you comment about the headers which need to be included in case ROOT is used
 or the compiler is invoke
-
-
-
 
 
 ## First Fitting 
