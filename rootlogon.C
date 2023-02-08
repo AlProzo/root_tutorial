@@ -11,21 +11,15 @@
    myStyle->SetTitleColor(1);
    myStyle->SetStatColor(0);
 
-   myStyle->SetLabelSize(0.03,"xyz"); // size of axis values
-
    // default canvas positioning
 
    myStyle->SetCanvasDefH(600);
    myStyle->SetCanvasDefW(800);
 
-   myStyle->SetPadBottomMargin(0.1);
-   myStyle->SetPadTopMargin(0.1);
-   myStyle->SetPadLeftMargin(0.1);
-   myStyle->SetPadRightMargin(0.1);
-   myStyle->SetPadTickX(1);
-   myStyle->SetPadTickY(1);
-   myStyle->SetFrameBorderMode(0);
 
+    myStyle->SetPadTickX(1);
+    myStyle->SetPadTickY(1);
+    myStyle->SetFrameBorderMode(0);
 
 	 myStyle->SetMarkerStyle(20);
 
