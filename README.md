@@ -1,6 +1,6 @@
 # The exercises for the ROOT intro
 
-## rootlogon
+## [rootlogon](rootlogon.C)
 The rootlogon allows to use a scpecific default style, it is always executed at the start of ROOT session. Just copy it into your home folder. 
 ```bash
    cp rootlogon.C ~/.rootlogon.C
@@ -22,7 +22,7 @@ Carry out these simple tasks:
 
 ## Geometric series
 Can you create a macro to execute the geometric series exercise we saw together during the lectures?
-The solution can be found in the *geometricSeries.C* macro.
+The solution can be found in the [geometricSeries.C](geometricSeries.C) macro.
 
 ## Graphics Exercise
 In this exercise, you will follow the steps of the "Good Plot" example that is described in the course slides. In particular, these are the steps to follow:
