@@ -27,7 +27,7 @@ double y_errs[n_points] = {5,5,4.7,4.5,4.2,5.1,2.9,4.1,4.8,5.43};
 - Create a `TGraphErrors` instance using the aforementioned data.
 - Draw the graph data in an error bars plot. Play with the following draw options: *"APE"*, *"APEL"*, *"APEC"*, *"APE4"*.
 - Customize the visual aspect of the plot (marker style, marker color, line color).
-- Add a function to compare the data with a line. Use the formula *"[0]+x\*[1]"*. Set the parameters to -1 and 5.
+- Add a function to compare the data with a line. Use the formula *"[0]+x\*[1]"* and fit the graph
 - Set the titles for the graph (*"Measurement XYZ;length [cm];Arb.Units"*) and for the axis ("*length [cm]"* and *"Arb.Units"* for x and y). Try to add special latex characters.
 - Add a legend to the plot, with one entry for the graph and one for the function.
 - Add an arrow (`TArrow`) and some text (`TLatex`) to the canvas.
