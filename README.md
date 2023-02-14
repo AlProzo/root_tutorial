@@ -1,5 +1,17 @@
 # The exercises for the ROOT intro
 
+## rootlogon
+The rootlogon allows to use a scpecific default style, it is always executed at the start of ROOT session. Just copy it into your home folder. 
+```bash
+   cp rootlogon.C ~/.rootlogon.C
+```
+
+For example, one can set a canvas default size by 
+```c++
+   myStyle->SetCanvasDefH(600);
+   myStyle->SetCanvasDefW(800);
+```
+
 ## Start a ROOT session
 Carry out these simple tasks:
  - Fire up ROOT
