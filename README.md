@@ -12,15 +12,6 @@ Carry out these simple tasks:
 Can you create a macro to execute the geometric series exercise we saw together during the lectures?
 The solution can be found in the *geometricSeries.C* macro.
 
-## Complete a simple ROOT macro
-Consider the file *myMacro.C*. It is a simple ROOT macro. In this exercise, you
-will fill in the code you interactively typed into the interpreter to verify the
-value of the *TMath::Gaus* function.
-Run the macro with ROOT in three ways:
-- Directly invoking ROOT as interpreter for it
-- Executing it from within the prompt
-- Loading it from the prompt and then invoking the *myMacro* function
-
 ## First Fitting 
 The macro **firstFit.C** is only half-way complete. In the code a fit of a histogram is performed
 and the parameters of the fitted model are inspected.
