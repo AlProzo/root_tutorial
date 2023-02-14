@@ -44,7 +44,7 @@ double y_errs[n_points] = {5,5,4.7,4.5,4.2,5.1,2.9,4.1,4.8,5.43};
 - Add a legend to the plot, with one entry for the graph and one for the function.
 - Add an arrow (`TArrow`) and some text (`TLatex`) to the canvas.
 
-You can find the solution [here](macro1.C).
+You can find the solution [macro1.C](macro1.C).
 
 
 
