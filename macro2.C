@@ -1,4 +1,4 @@
-void macro1(){
+void macro2(){
    TH2F *h = new TH2F("h","Option COL example ",300,-4,4,300,-20,20);
    h->SetStats(0);
    h->SetContour(200);
