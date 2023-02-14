@@ -12,11 +12,29 @@ Carry out these simple tasks:
 Can you create a macro to execute the geometric series exercise we saw together during the lectures?
 The solution can be found in the *geometricSeries.C* macro.
 
-## First Fitting 
-The macro **firstFit.C** is only half-way complete. In the code a fit of a histogram is performed
-and the parameters of the fitted model are inspected.
-Try to complete the code putting to a good use what you learned during the lectures.
-The solution is available in the [firstFit_Solution.C](firstFit_Solution.C) macro.
+## Graphics Exercise
+In this exercise, you will follow the steps of the "Good Plot" example that is described in the course slides. In particular, these are the steps to follow:
+- Create the initial data set by placing the code below in a macro called *macro1*:
+```c++
+// The number of points in the data set
+const int n_points = 10;
+// The values along X and Y axis
+double x_vals[n_points] = {1,2,3,4,5,6,7,8,9,10};
+double y_vals[n_points] = {6,12,14,20,22,24,35,45,44,53};
+// The errors on the Y axis
+double y_errs[n_points] = {5,5,4.7,4.5,4.2,5.1,2.9,4.1,4.8,5.43};
+```
+- Create a `TGraphErrors` instance using the aforementioned data.
+- Draw the graph data in an error bars plot. Play with the following draw options: *"APE"*, *"APEL"*, *"APEC"*, *"APE4"*.
+- Customize the visual aspect of the plot (marker style, marker color, line color).
+- Add a function to compare the data with a line. Use the formula *"[0]+x\*[1]"*. Set the parameters to -1 and 5.
+- Set the titles for the graph (*"Measurement XYZ;length [cm];Arb.Units"*) and for the axis ("*length [cm]"* and *"Arb.Units"* for x and y). Try to add special latex characters.
+- Add a legend to the plot, with one entry for the graph and one for the function.
+- Add an arrow (`TArrow`) and some text (`TLatex`) to the canvas.
+
+You can find the solution [here](macro1.C).
+
+
 
 
 ## TBrowser
