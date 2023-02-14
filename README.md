@@ -21,22 +21,11 @@ Run the macro with ROOT in three ways:
 - Executing it from within the prompt
 - Loading it from the prompt and then invoking the *myMacro* function
 
-The final step consists in compiling the macro as executable with the compiler.
-Add to the compiler invocation the following arguments: *`` `root-config --cflags --libs` ``*:
-this is needed to expose to the compiler the details about ROOT which are needed
-to link its libraries to the executable.
-### Follow up question
-Can you comment about the headers which need to be included in case ROOT is used
-or the compiler is invoke
-
-
 ## First Fitting 
 The macro **firstFit.C** is only half-way complete. In the code a fit of a histogram is performed
 and the parameters of the fitted model are inspected.
 Try to complete the code putting to a good use what you learned during the lectures.
 The solution is available in the [firstFit_Solution.C](firstFit_Solution.C) macro.
-
-## Writing and Reading histograms
 
 
 ## TBrowser
