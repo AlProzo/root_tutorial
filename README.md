@@ -1,16 +1,5 @@
+
 # The exercises for the ROOT intro
-
-## [rootlogon](rootlogon.C)
-The rootlogon allows to use a scpecific default style, it is always executed at the start of ROOT session. Just copy it into your home folder. 
-```bash
-   cp rootlogon.C ~/.rootlogon.C
-```
-
-For example, one can set a canvas default size by 
-```c++
-   myStyle->SetCanvasDefH(600);
-   myStyle->SetCanvasDefW(800);
-```
 
 ## Start a ROOT session
 Carry out these simple tasks:
@@ -55,3 +44,17 @@ Open the file with *root*
 And open a **TBrowser**
 ```root[0] TBrowser b```
 Now display the histograms and fit them with the **FitPanel**: can you recover the distributions according to which you created the histograms?
+
+
+## [rootlogon](rootlogon.C)
+The rootlogon allows to use a scpecific default style, it is always executed at the start of ROOT session. Just copy it into your home folder. 
+```bash
+   cp rootlogon.C ~/.rootlogon.C
+```
+
+For example, one can set a canvas default size by 
+```c++
+   myStyle->SetCanvasDefH(600);
+   myStyle->SetCanvasDefW(800);
+```
+
